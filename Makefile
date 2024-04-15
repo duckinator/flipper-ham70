@@ -1,4 +1,4 @@
-all: launch
+all: build
 
 build:
 	ufbt
@@ -6,7 +6,7 @@ build:
 flash:
 	ufbt flash
 
-launch:
+run launch:
 	ufbt launch
 
 clean:
