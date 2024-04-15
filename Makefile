@@ -10,5 +10,4 @@ run launch:
 	ufbt launch
 
 clean:
-	ufbt clean
-	rm -rf dist/
+	ufbt -c
